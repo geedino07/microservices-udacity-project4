@@ -1,7 +1,7 @@
 [![CircleCI](https://dl.circleci.com/status-badge/img/gh/geedino07/microservices-udacity-project4/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/geedino07/microservices-udacity-project4/tree/master)
 
 
-Operationalize a Machine Learning Microservice-API
+# Operationalize a Machine Learning Microservice-API
 
 This project entails the Deployment of a containerized Python flask application to serve out predictions (inference) about housing prices through API calls. It uses a a pre-trained, sklearn model that has been trained to predict housing prices in Boston according to several features
 
