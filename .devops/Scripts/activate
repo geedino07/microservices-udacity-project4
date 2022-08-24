@@ -37,11 +37,11 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/home/ec2-user/environment/microservices-udacity-project4/.devops"
+VIRTUAL_ENV="C:\Users\Gerald.okeke\nd9991-c2-Infrastructure-as-Code-v1\supporting_material\Project4\DevOps_Microservices\microservices-udacity-project4\.devops"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
-PATH="$VIRTUAL_ENV/bin:$PATH"
+PATH="$VIRTUAL_ENV/Scripts:$PATH"
 export PATH
 
 # unset PYTHONHOME if set

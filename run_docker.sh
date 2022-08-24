@@ -4,9 +4,13 @@
 
 # Step 1:
 # Build image and add a descriptive tag
+docker build --tag=udacityproj .
 
 # Step 2: 
 # List docker images
+docker image ls 
 
 # Step 3: 
 # Run flask app
+#docker run -it udacityproject bash
+docker run -p 5001:80 -it udacityproj
