@@ -42,3 +42,5 @@ Run in Kubernetes: ./run_kubernetes.sh
 - upload_docker.sh (steps to upload docker image to docker hub repository)
 
 - make_prediction.sh (pass payload to the applicaton)
+
+- output_txt_files (containts 2 text files, output from application running on and kubernetes )
