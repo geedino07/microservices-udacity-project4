@@ -1,1 +1,20 @@
 <paste log output from Kubernetes-mediated prediction, here>
+
+$ ./make_prediction.sh
+Port: 5001
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
+
+
+$ ./run_kubernetes.sh
+Error from server (AlreadyExists): pods "udacityproj4" already exists
+NAME           READY   STATUS             RESTARTS      AGE
+udacity4       1/1     Running            2 (92s ago)   16m
+udacityproj    0/1     ImagePullBackOff   0             18m
+udacityproj4   1/1     Running            2 (91s ago)   13m
+Forwarding from 127.0.0.1:5001 -> 80
+Forwarding from [::1]:5001 -> 80
+Handling connection for 5001
