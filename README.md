@@ -20,7 +20,9 @@ Run in Kubernetes: ./run_kubernetes.sh
 
 Files contained in the repository
 app.py - python file
+
 Makefile
+
 Dockerfile
 requirments.txt
 run_docker.sh (steps to get Docker running locally)
