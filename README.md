@@ -27,18 +27,18 @@ Run in Kubernetes: ./run_kubernetes.sh
 
 # Files contained in the repository
 
-app.py - python file
+- app.py - python file
 
-Makefile
+- Makefile
 
-Dockerfile
+- Dockerfile
 
-requirments.txt
+- requirments.txt
 
-run_docker.sh (steps to get Docker running locally)
+- run_docker.sh (steps to get Docker running locally)
 
-run_kubernetes.sh (steps to run kubernetes locally)
+- run_kubernetes.sh (steps to run kubernetes locally)
 
-upload_docker.sh (steps to upload docker image to docker hub repository)
+- upload_docker.sh (steps to upload docker image to docker hub repository)
 
-make_prediction.sh (pass payload to the applicaton)
+- make_prediction.sh (pass payload to the applicaton)
