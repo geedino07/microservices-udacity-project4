@@ -14,15 +14,15 @@ Create a virtualenv with Python 3.7 and activate it by running `python3 -m pip i
 
 `source .devops/bin/activate`
 
-Run make install to install the necessary dependencies
+Run `make install` to install the necessary dependencies
 
-Running app.py
+Running `app.py`
 
-Standalone: python app.py
+Standalone: `python app.py`
 
-Run in Docker: ./run_docker.sh
+Run in Docker: `./run_docker.sh`
 
-Run in Kubernetes: ./run_kubernetes.sh
+Run in Kubernetes: `./run_kubernetes.sh`
 
 
 ### _Files contained in the repository_
