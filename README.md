@@ -11,6 +11,7 @@ Create a virtualenv with Python 3.7 and activate it by running `python3 -m pip i
 ## Check the Python path using `which python3`
 ### _Use a command similar to this one:_
 `python3 -m virtualenv --python=<path-to-Python3.7> .devops`
+
 `source .devops/bin/activate`
 
 Run make install to install the necessary dependencies
