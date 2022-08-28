@@ -6,13 +6,12 @@
 This project entails the Deployment of a containerized Python flask application to serve out predictions (inference) about housing prices through API calls. It uses a a pre-trained, sklearn model that has been trained to predict housing prices in Boston according to several features
 
 Run Python Scripts
-Create a virtualenv with Python 3.7 and activate it by running python3 -m pip install --user virtualenv
-# You should have Python 3.7 available in your host.
-# Check the Python path using `which python3`
-# Use a command similar to this one:
-python3 -m virtualenv --python=<path-to-Python3.7> .devops
-
-source .devops/bin/activate
+Create a virtualenv with Python 3.7 and activate it by running `python3 -m pip install --user virtualenv`
+## You should have Python 3.7 available in your host.
+## Check the Python path using `which python3`
+### _Use a command similar to this one:_
+`python3 -m virtualenv --python=<path-to-Python3.7> .devops`
+`source .devops/bin/activate`
 
 Run make install to install the necessary dependencies
 
@@ -25,7 +24,7 @@ Run in Docker: ./run_docker.sh
 Run in Kubernetes: ./run_kubernetes.sh
 
 
-# Files contained in the repository
+### _Files contained in the repository_
 
 - app.py - python file
 
